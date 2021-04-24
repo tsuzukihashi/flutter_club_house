@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_club_house/screens/home_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'config/pallet.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         fontFamily: GoogleFonts.montserrat().fontFamily,
         textTheme: GoogleFonts.montserratTextTheme(),
       ),
-      home: Scaffold(),
+      home: HomeScreen(),
     );
   }
 }
